@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+    <title>Recommandations Santé</title>
+</head>
+<body>
+    <h1>Recommandations de santé</h1>
+    
+    <div class="filters">
+        <input type="text" id="categorie" placeholder="Catégorie (ex: Alimentation)">
+        <input type="text" id="sousCategorie" placeholder="Sous-catégorie (ex: Fruits et légumes)">
+        <input type="text" id="public" placeholder="Public (ex: Adultes)">
+        <button onclick="loadRecommandations()">Rechercher</button>
+        <button onclick="loadAll()">Tout afficher</button>
+    </div>
+    
+    <div id="results">
+        <div class="loading">Chargement...</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

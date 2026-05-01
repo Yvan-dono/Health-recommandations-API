@@ -1,0 +1,34 @@
+body { font-family: Arial, sans-serif; 
+	   max-width: 1200px; 
+	   margin: 0 auto; 
+	   padding: 20px; 
+}
+
+.filters { margin-bottom: 20px; 
+}
+
+.filters input { margin-right: 10px; 
+				 padding: 8px; 
+}
+
+button { padding: 8px 16px; 
+		 background: #007bff; 
+		 color: white; 
+		 border: none; 
+		 cursor: pointer; 
+}
+
+.recommendation { border: 1px solid #ddd; 
+				  padding: 15px; 
+				  margin: 10px 0; 
+				  border-radius: 8px; 
+}
+				  
+.categorie { font-weight: bold; 
+			 color: #007bff; }
+			 
+.loading { color: #666; 
+}
+
+.error { color: red; 
+}
